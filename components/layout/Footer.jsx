@@ -94,7 +94,7 @@ const Footer = () => {
               className="space-y-4"
               open={windowWidth > 640 && true}
             >
-              <summary className="flex items-center justify-between py-6 border-t cursor-pointer md:py-0 border-brandGray-pale md:border-0">
+              <summary className="flex items-center justify-between py-3 border-t cursor-pointer md:py-0 border-brandGray-pale md:border-0">
                 <h5 className="text-base leading-[1.6] font-semibold ">
                   {e?.title}
                 </h5>

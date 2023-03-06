@@ -3,6 +3,9 @@ import Card from "../ui/Card";
 import ContentWrapper from "../Wrapper/ContentWrapper";
 import SectionWrapper from "../Wrapper/SectionWrapper";
 import newsLarge1 from "../../public/images/news-large.png";
+import news1 from "../../public/images/news1.jpeg";
+import news3 from "../../public/images/news3.jpeg";
+import news4 from "../../public/images/news-4.png";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import { sourceSans } from "@/helpers/sourceSansFont";
@@ -19,7 +22,7 @@ const News = () => {
               {
                 image: (
                   <Image
-                    src={newsLarge1}
+                    src={news1}
                     alt="current"
                     className="aspect-7/3 max-h-[190px] object-cover object-center w-full"
                   />
@@ -43,7 +46,7 @@ const News = () => {
               {
                 image: (
                   <Image
-                    src={newsLarge1}
+                    src={news3}
                     alt="current"
                     className="aspect-7/3 max-h-[190px] object-cover object-center w-full"
                   />
@@ -55,7 +58,7 @@ const News = () => {
               {
                 image: (
                   <Image
-                    src={newsLarge1}
+                    src={news3}
                     alt="current"
                     className="aspect-7/3 max-h-[190px] object-cover object-center w-full"
                   />

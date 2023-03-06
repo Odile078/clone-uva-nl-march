@@ -1,6 +1,8 @@
 import ContentWrapper from "../Wrapper/ContentWrapper";
 import SectionWrapper from "../Wrapper/SectionWrapper";
 import currentLarge1 from "../../public/images/current-large.jpeg";
+import current2 from "../../public/images/current-2.webp";
+import current3 from "../../public/images/current-3.webp";
 import Image from "next/image";
 import Card from "../ui/Card";
 import Link from "next/link";
@@ -26,7 +28,7 @@ const Current = () => {
             {
               image: (
                 <Image
-                  src={currentLarge1}
+                  src={current2}
                   alt="current"
                   className="aspect-7/3 max-h-[190px] object-cover object-center w-fullr"
                 />
@@ -38,7 +40,7 @@ const Current = () => {
             {
               image: (
                 <Image
-                  src={currentLarge1}
+                  src={current3}
                   alt="current"
                   className="aspect-7/3 max-h-[190px] object-cover object-center w-fullr"
                 />

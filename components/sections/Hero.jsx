@@ -5,7 +5,7 @@ import heroImg from "../../public/images/hero.jpeg";
 const Hero = () => {
   return (
     <div className="px-3 mx-auto max-w-6.5xl min-h-max -mt-16 pb-6 sm:py-[4.5rem] lg:pb[86px] lg:mb-16">
-      <div className="flex flex-col justify-between lg:flex-row ">
+      <div className="flex flex-col items-center lg:items-start lg:justify-between lg:flex-row ">
         <div className="mb-6 lg:mt-[4.5rem] md:w-hero">
           <h1 className="text-[2.625rem] leading-[1.4] font-semibold">
             University of Amsterdam

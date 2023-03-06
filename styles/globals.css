@@ -39,6 +39,9 @@
   .title-text{
     @apply text-[1.875rem] leading-[1.6] font-semibold
   }
+  .drop:hover {
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 2px 4px 5px) drop-shadow(rgba(0, 0, 0, 0.3) 1px 3px 2px);
+  }
  
 }
 html{
