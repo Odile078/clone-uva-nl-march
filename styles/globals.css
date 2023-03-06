@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .slide-out-right {
+    animation: slide-out-right 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2 both;;
+  }
+  @keyframes slide-out-right {
+    0% {
+      transform: translateX(0);
+      opacity: 0;
+    }
+    25% {
+      transform: translateX(40px);
+      opacity: 1;
+    }
+    50% {
+      transform: translateX(-40px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @media (min-width: 640px) { 
+    .card-cut{ -webkit-clip-path: polygon(16% 0, 100% 0%, 100% 57%, 0 57%, 0 0, 10% 0, 14% 5%); clip-path: polygon(17% 0, 100% 0%, 100% 100%, 0 100%, 0 0, 11.2% 0, 14.1% 7%); }
+  
+  }
+  .scroller {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .scroller::-webkit-scrollbar { 
+      display: none;  /* Safari and Chrome */
+  }
+  
+  .title-text{
+    @apply text-[1.875rem] leading-[1.6] font-semibold
+  }
+ 
+}
+html{
+  line-height: 1.6;
+}
+
+
+/* ::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  /*
+  background: transparent;  /* Optional: just make scrollbar invisible */
+/*}
+*/
+/* Optional: show position indicator in red */
+/*
+::-webkit-scrollbar-thumb {
+  background: white;
+} */
